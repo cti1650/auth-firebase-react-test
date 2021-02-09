@@ -26,7 +26,7 @@ const Home: FC = (props: any) => {
   return (
     <div>
       <pre>{currentUser && JSON.stringify(currentUser, null, 4)}</pre>
-      <button onClick={logOut}>Logout</button>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 opacity-50 cursor-not-allowed" onClick={logOut}>Logout</button>
     </div>
   )
 }
